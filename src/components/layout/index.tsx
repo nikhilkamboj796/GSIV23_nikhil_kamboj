@@ -1,7 +1,10 @@
-import Routes from "@/components/routes"
-import Header from "./header"
+import Routes from "@/components/routes";
 
 const Layout = () => {
-    return <div><Header /><Routes /></div>
-}
-export default Layout
+  return (
+    <div className="mt-14 px-5">
+      <Routes />
+    </div>
+  );
+};
+export default Layout;
